@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="23" viewBox="0 0 105 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="105" height="23" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="bolinhas" clip-path="url(#clip-path)">
+    <g transform="translate(-1212 -1249)">
+      <circle id="Elipse_1" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1192 -1249)">
+      <circle id="Elipse_1-2" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1172 -1249)">
+      <circle id="Elipse_1-3" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1152 -1249)">
+      <circle id="Elipse_1-4" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1132 -1249)">
+      <circle id="Elipse_1-5" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1112 -1249)">
+      <circle id="Elipse_1-6" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1212 -1234)">
+      <circle id="Elipse_1-7" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1192 -1234)">
+      <circle id="Elipse_1-8" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1172 -1234)">
+      <circle id="Elipse_1-9" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1152 -1234)">
+      <circle id="Elipse_1-10" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1132 -1234)">
+      <circle id="Elipse_1-11" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+    <g transform="translate(-1112 -1234)">
+      <circle id="Elipse_1-12" data-name="Elipse 1" cx="2.5" cy="2.5" r="2.5" transform="translate(1212 1249)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

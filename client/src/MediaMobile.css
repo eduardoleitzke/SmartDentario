@@ -1,0 +1,990 @@
+@media screen and (max-width: 900px) {
+
+    .home_container {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;   
+    }
+
+    body{
+        display: fixed;
+        margin-right: 0;
+        padding: 0;
+        margin-right: 0; 
+    }
+    /* HEADER*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        width: 85%;
+        margin: auto;
+        margin-top: 7%;
+        margin-bottom: -60px; 
+    }
+     
+    .computer_h1 {
+        
+        display: none;
+    }
+
+    .mobile_h1 {
+        display: block;
+        text-align: left;
+        font-family: 'MontserratLight';
+        font-weight: 750;
+        font-size: 1.5rem;
+        letter-spacing: 0.2px;
+        color: #3E3E3E;
+        margin-left: 1%;
+    }
+
+
+    header button {
+        cursor: pointer;
+        font-family: "MontserratLight";
+    }
+
+    .registrar {
+        display: none;
+        font-weight: 750;
+        font-size: 1.5rem;
+        letter-spacing: 0px;
+        color: #21B1D6
+    }
+
+    .login {
+        font-weight: 750;
+        font-size: 1rem;
+        text-align: center;
+        background-color: #21B1D6;
+        color: white;
+        width: 5rem;
+        height: 2.2rem;
+        border-radius: 5px;
+        padding: 10 px;
+    }
+
+    .login:hover {
+        box-shadow: 0 0 1em gray;
+    }
+
+    /* home apresentation*/
+
+    .apresentation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;;
+        margin-left: 6.66%;
+        margin-right: 6.66%;
+    }
+
+    .apresentation_firstHalf {
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .apresentation_firstHalf h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'MontserratBold', sans-serif;
+        color: #3E3E3E;
+        width: 102%;
+        /* height: 200px; */
+    }
+
+    .h2_span {
+        font-size: 2rem;
+        font-family: 'MontserratBold', sans-serif;
+        color: #21B1D6;
+        border-color: #21B1D6;
+        border-style: solid;
+        border-width: 0 0 5px 0;
+        /* color: #21B1D6; */
+    }
+
+    .apresentation_firstHalf p {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-family: "MontserratNormal";
+        font-weight: 100;
+        color: #3E3E3E;
+        opacity: 0.5;
+        width: 102%;
+    }
+
+    .apresentation_firstHalf ul {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1;
+        width:100%; 
+        box-shadow: none;
+    }
+
+   
+
+    .apresentation_firstHalf ul li{
+        
+        width: 100%;
+    }
+
+  
+    
+    .apresentation_firstHalf ul li:first-of-type button {
+        width: 100%;
+        font-size: 1rem;
+        height: 3.2rem;
+        border-radius: 5px;
+        background-color: #21B1D6;
+        color: white;
+        font-family: "MontserratLight";
+        letter-spacing: 0.4px;
+        box-shadow: none;
+    }
+
+    .apresentation_firstHalf ul li:first-of-type button:hover {
+        box-shadow: 0 0 1em gray;
+    }
+
+    .apresentation_firstHalf ul li:last-child button {
+        width: 95%;
+        font-size: 1rem;
+        background-color: white;
+        color: #21B1D6;
+        font-family: "MontserratLight";
+        letter-spacing: 0.4px;
+    }
+
+
+
+    .implante_img {
+        display: none;
+        justify-content: flex-end;
+        width: 40%;
+    }
+
+    .implante_img img {
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* QUEM SOMOS NÓS*/
+
+    .about {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0;
+        background-color: #21B1D6;
+        width: 100%;
+        margin-top: 100px;  
+    }
+
+    .escova {
+        display: none;
+        order: 1;
+        background-image: url("./assets/images/escova-de-dente.png");
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-size: 40%;
+        width: 0%;
+        height: 10%;
+    }
+
+
+
+    .about_text {
+        position:static;
+        order: -1;
+        display: flex;
+        /* justify-content: center; */
+        gap: 0rem;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        font-size: 1rem;
+        width: 95%;
+        
+    }
+
+    .about_text h2 {
+       
+        font-family: "MontserratBold";
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        margin-top: 35%;
+        
+    }
+
+    .about_text p {
+        text-align: center;
+        line-height: 1.5rem;
+        margin-top: 2rem;
+        font-family: "MontserratNormalLess";
+        opacity: 0.9;
+        width: 95%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about_tex p:first-child{
+        gap: 1rem ;
+    }
+
+
+    
+
+    .tooth1 {
+        position: absolute;
+        width: 40%;
+        top:88%;
+
+    }
+
+    .bolinhas_mobile{
+        display: block;
+        position: absolute;
+        right: 1.5rem;
+        top: 1.5rem;
+      }
+
+    .bolinhas{
+        display: none;
+    }
+
+
+    /* planejamento*/
+    .planejamento {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10rem;
+        width: 85%;
+        margin: auto;
+       
+    }
+
+    .planejamento div {
+        width: 90%;
+        height: 100%;
+    }
+
+    .planejamento div img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .planejamento div h3 {
+        text-align: center;
+        width: 100%;
+        /* height: 78px; */
+        font-size: 2rem;
+        font-family: "MontserratBold";
+        color: #3A3A3A;
+        margin-top: 4rem;
+        
+    }
+
+    .planejamento div p {
+        font-size: 1rem;
+        font-family: "MontserratNormal";
+        color: #3A3A3A;
+        margin-top: 2rem;
+        width: 100%;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+
+
+
+    .planejamento div h4 {
+        text-align: center;
+        font-size: 1rem;
+        font-family: "MontserratLight";
+        color: #3A3A3A;
+        margin-top: 2rem;
+        width: 100%;
+        
+
+    }
+
+    .planejamento div h4 span {
+        text-align: center;
+        color: #21B1D6;
+        border-color: #21B1D6;
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        line-height: 1.35rem;
+    }
+
+    .planejamento div button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 1rem;
+        background-color: #21B1D6;
+        border-radius: 5px 5px 5px 5px;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        font-family: "MontserratLight";
+    }
+
+    .planejamento div button:hover {
+        box-shadow: 0 0 1em gray;
+    }
+
+    .planejamento_texts {
+        width: 100%;
+        height: 70%;
+    }
+
+    /* PLANOS*/
+
+    .planos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin-top: 8rem;
+        width: 100%;
+    }
+
+    .planos div h4 {
+        font-size: 2rem;
+        font-family: "MontserratBold";
+        color: #3A3A3A;
+        margin-bottom: 2rem;
+    }
+
+    .cards_plano {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .premium{
+        order: -1;
+    }
+    .cards_plano h5 {
+        font-family: "MontserratBold";
+        font-size: 1.5rem;
+        color: #3A3A3A;
+    }
+
+    .cards_plano p {
+        padding-bottom: 1rem;
+        font-family: "MontserratLight";
+        color: #3A3A3A;
+        border-bottom: 2px solid #F5F5F5;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .card_plano_content {
+        position: relative;
+        display: flex;
+        gap: 1rem;
+        padding-top: 0rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding:    0px;
+        height: 20rem;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 20px 20px 30px #00000033;
+        width: 90%;
+    }
+
+
+
+    .card_plano_content p:last-child {
+        color: #21B1D6;
+        border: none;
+        font-size: 1.5rem;
+        margin-top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(20px);
+    }
+
+    .cards_plano img {
+        position: absolute;
+        bottom: 19rem;
+    }
+
+    .planos div:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plano_message {
+        margin-top: 5rem;
+        width: 90%;
+        text-align: center;
+        font-size: 1rem;
+        font-family: "MontserratNormal";
+        color: #3A3A3A;
+        line-height: 1.4rem;
+        height: 117px;
+    }
+
+    .planos div button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 1rem;
+        background-color: #21B1D6;
+        border-radius: 5px 5px 5px 5px;
+        width: 90%;
+        height: 51px;
+        color: white;
+        font-family: "MontserratLight";
+    }
+
+    .tooth2 {
+        position: absolute;
+        top: 70rem;
+        left: 0;
+        width: 40%;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #21B1D6;
+        margin-top: 9rem;
+        color: white;
+        height: 63rem;
+    }
+
+    .footer_first_half {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding-bottom: 0rem;
+        border-bottom: 2px solid #25A0BF;
+        margin-left: 0rem;
+        padding-right: 0rem;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4rem;
+    }
+
+    .redes_socias {
+        margin-top: 0rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .redes_socias h3 {
+        font-size: 1.5rem;
+        font-family: "MontserratBold";
+        color: white;
+        line-height: 1.8rem;    
+    }
+
+    .redes_socias p {
+        margin-top: 1rem;
+        width:100%;
+        height: 139px;
+        line-height: 1.3rem;
+        font-size: 1rem;
+        font-family: "MontserratNormalLess";
+    }
+
+
+    .redes_socias ul {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .footer_lists {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0rem;
+    }
+
+    .explorar {
+        margin-top: 0rem;
+        width: 95%;
+        text-align: center;
+    }
+
+    .explorar ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .explorar h4 {
+        font-family: "MontserratBold";
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .explorar ul li {
+        font-family: "MontserratNormalLess";
+        opacity: 0.9;
+        margin-bottom: 1.2rem;
+    }
+
+    .entre_contato {
+        order: -1;  
+        margin-bottom: 2rem;
+    }
+
+    .entre_contato h4 {
+        font-family: "MontserratBold";
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .entre_contato ul li {
+        font-family: "MontserratNormalLess";
+        opacity: 0.9;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer_second_half {
+        margin-left: 0rem;
+        padding-right: 0rem;
+        opacity: 0.9;
+        font-family: "MontserratNormalLess";
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;  
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer_second_half ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+
+    /*------------------------------------->LOGIN<------------------------------*/
+
+ .login_container{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: none;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  } 
+  
+ .login_container h2{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: white;
+    font-family: "MontserratLight", sans-serif;
+    font-size: 1.5rem;
+    display: none;
+  } 
+  
+  .login_card{
+      width: 100vw;
+      height: 100vh;
+      background-color: white;
+      border-radius: 0;
+      padding-top: 4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* margin-right: 1rem; */
+  }
+  
+  .card_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  
+  
+  .card_header h3{
+    font-size: 2rem;
+    font-family: "MontSerratBold", sans-serif;
+    color: #3E3E3E;
+    text-align: center;
+  }
+  
+  .card_header p{
+    font-size: 1rem;
+    font-family: "MontSerratNormalLess";
+    line-height: 1.5rem;
+    color: #B4B4B4;
+    width: 80%; 
+    text-align: center;
+  }
+  .form{
+    display: flex;
+    gap: 0rem;
+  }
+  
+  .login_card_form .form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+  
+  .login_input{
+    width: 100%;
+    height: 3.4rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #F5F5F5;
+    padding-left: 2rem;
+    font-family: "MontSerratLight";
+  }
+  
+  .login_input::placeholder{
+    font-family: "MontSerratLight", sans-serif;
+    color: #3E3E3E;
+  }
+  
+  .login_input:focus{
+    border: none;
+  }
+  
+  .login_card_form .form label div:first-child{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    font-family: "MontSerratLight";
+    color: #3E3E3E;
+  }
+  
+  .checkbox_container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    width: 31rem;
+    position: relative;
+    padding-left: 2.5rem;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: "MontSerratLight";
+    font-size: 1rem;
+    text-align: center;
+    height: 25px;
+    color: #3E3E3E;
+  }
+  
+  .checkbox_container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 3px;
+  }
+  
+  .checkbox_container:hover .checkmark {
+    background-color: #ccc;
+  }
+  
+  .checkbox_container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  .checkbox_container p{
+    color: #21B1D6;
+  }
+  .login_card_form .form label div:last-child{
+    font-family: "MontSerratLight";
+    color: #21B1D6;
+  }
+  
+  .login_card_form .form button{
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    padding-left: 0rem;
+    font-family: "MontSerratLight";
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  
+  .login_card_footer{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    color: #3E3E3E;
+    font-family: "MontSerratNormal", sans-serif;
+    text-align:center;
+  }
+  
+  .login_card_footer p span{
+    color: #21B1D6;
+    font-family: "MontSerratLight";
+    cursor: pointer;
+  }
+  
+  .login_card_footer p:last-child{
+    margin: 0.5rem;
+    font-size: 0.8rem;
+    color: #21B1D6;
+  }
+
+
+/*-----------------------------------REGISTER*/
+.register_container{
+    width: 100%;
+    height: 100%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction:column;
+    align-items: center;
+    /* gap: 1rem; */
+    overflow: hidden;
+  }
+  
+  .register_container h2{
+    margin-top: 4rem;
+    margin-bottom: 4.5rem;
+    color: white;
+    font-family: "MontserratLight", sans-serif;
+    display: none;
+  }
+  
+  .register_card{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -1rem;
+    padding-bottom: 3rem;
+  }
+  
+  .register_card_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .register_input{
+    width: 100%;
+    height: 3.4rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: none;
+    background-color: #F5F5F5;
+    padding-left: 2rem;
+    font-family: "MontSerratLight", sans-serif;
+    outline: none;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+  .register_input::placeholder{
+    font-family: "MontSerratLight", sans-serif;
+    
+    color: #3E3E3E;
+  }
+  
+  
+  .cards_login_register_p{
+    font-size: 1rem;
+    font-family: "MontSerratNormalLess";
+    line-height: 1rem;
+    color: #B4B4B4;
+    width: 100%;
+    margin-bottom: 0.8rem; 
+  }
+  
+  .register_btns_password{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2%;
+  }
+  
+  .register_input_half{
+    width: 50%;
+    height: 3.4rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: none;
+    background-color: #F5F5F5;
+    padding-left: 0.5rem;
+    font-family: "MontSerratLight", sans-serif;
+    outline: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  .register_input_half::placeholder{
+    font-family: "MontSerratLight", sans-serif; 
+    color: #3E3E3E;
+    font-size: 0.8rem;
+  }
+  
+  .register_proximo{
+    font-weight: 750;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    background-color: #21B1D6;
+    color: white;
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+    box-shadow: 0px 20px 40px rgb(14 84 100 / 30%);
+    transition: 0.2s ease-in-out;
+    text-align: start;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "MontSerratLight", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .register_proximo:hover {
+    box-shadow: 0px 3px 10px rgb(14 84 100 / 50%);
+    background-color: #30c4e9;
+  }
+  
+  /* ---------------------------------DADOS CARD*/
+  
+  .date_card{
+    display: none;
+    width: 100%;
+  
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 4rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -1rem;
+    padding-bottom: 3rem;
+  }
+  
+  .loaded_icon{
+    position: absolute;
+    bottom: 30rem;
+    display:none
+  }
+  
+  .error_login_message{
+    margin-top: 2rem;
+    background-color:#F65A7F;
+    font-family: 'MontserratLight'; 
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  
+  }
+  
+  .error_register_message{
+    margin-top: 2rem;
+    background-color:#F65A7F;
+    font-family: 'MontserratLight'; 
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /*  --------------------------------VERIFICATION CARD*/
+  
+  
+  .verification_card{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-top: 4rem;
+    flex-direction: column;
+    justify-content: space-around ;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .verification_card a{
+    color: #2196F3;
+    text-decoration: underline;
+    font-size: 0.8rem;
+  }
+
+}
+
+
+
